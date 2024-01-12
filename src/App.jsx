@@ -121,6 +121,7 @@ function App() {
  
   return (
     <>
+    <h1>App component</h1>
       <div className="pricing my-5 w-75 py-3 bg-primary container">
         <div className="row">           
           {myprice.map((obj)=>(<Card data={obj}/>))}            
